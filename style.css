@@ -6,7 +6,7 @@ html {
   }
 
 body {
-    background: #2C2141;
+    background: rgb(207, 112, 33);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,7 +15,8 @@ body {
 }
 
 .main {
-    background: #F8F8F8;
+    background: rgb(238,186,179);
+background: linear-gradient(0deg, rgba(238,186,179,1) 21%, rgba(229,184,178,1) 28%, rgba(175,174,173,1) 70%);
     border-radius: 16px;
     width: 624px;
     margin: 16px;
@@ -23,7 +24,8 @@ body {
 }
 
 .person {
-
+display: flex;
+align-items: flex-start;
 }
 
 .person__description {
@@ -46,10 +48,16 @@ body {
 margin: 0;
 font-weight: normal;
 }
+.person__picture {
+    margin-right: 32px;
+}
 
 .person__position {
     font-size: 18px;
     color: #545454;
     margin: 0;
     font-style: italic;
+}
+.special {
+    color: rgb(163, 64, 6);
 }
